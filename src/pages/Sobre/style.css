@@ -1,0 +1,83 @@
+.container-sobre{
+    width: 80%;
+    margin: 0px auto;
+}
+
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.116);
+    width: 50vw;
+    height: 2px;
+    margin: 40px auto;
+    border-radius: 50%;
+}
+
+.title{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.content-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.content-info > div{
+    width: 49%;
+    border: 1px solid rgba(255, 255, 255, 0.100);
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+.content-info h2{
+    color: #FFF;
+    padding-bottom: 30px;
+}
+.container-info{
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.coluna-info{
+    width:  45%;
+}
+
+.container-info p{
+    color: #FFF;
+    padding: 4px 0;
+    
+}
+.container-info p span{
+    font-weight: bold;
+    padding-right: 4px;
+}
+
+.sobre-infos p{
+    color: #FFF;
+    padding: 4px 0;
+    
+}
+
+.button-download-cv{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.button-download-cv a{
+    display: inline;
+    background-color: #63B4EE;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.skills-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}

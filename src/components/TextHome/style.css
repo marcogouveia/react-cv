@@ -1,0 +1,17 @@
+.text-home{
+    width: 30%;
+}
+
+.text-home h1{
+    color: #ffF;
+}
+
+.text-home h1 span{
+    color: #63B4EE;
+}
+
+.text-home p{
+    color: #FFF;
+    padding-top: 20px;
+    line-height: 22px;
+}

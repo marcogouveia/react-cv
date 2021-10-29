@@ -1,0 +1,22 @@
+.foto{
+    width:  40vw;
+}
+
+.foto::before{
+    position: absolute;
+    background-color: #63B4EE;
+    content: "";
+    width: 600px;
+    height: 100%;
+    top: 0;
+    left: -200px;
+    transform: skewX(15deg);
+    z-index: -1;
+}
+
+.foto img{
+    width: 30vw;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 50px;
+}
