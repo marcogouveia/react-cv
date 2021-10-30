@@ -52,7 +52,7 @@ function Sobre() {
             </div>
 
             <div className="button-download-cv">
-                <a target="_blank" href="https://google.com">Download CV</a>
+                <a target="_blank" rel="noreferrer" href="https://google.com">Download CV</a>
             </div>
 
             <hr />

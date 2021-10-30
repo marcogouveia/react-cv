@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import { FaEnvelope, FaUser, FaHome, FaGithub, FaBriefcase } from 'react-icons/fa'
+
 import './components/Nav/style.css';
 
 import { Contato } from './pages/Contato';
@@ -8,7 +8,7 @@ import { Home } from './pages/Home';
 import { Portfolio } from './pages/Portfolio';
 import { Sobre } from './pages/Sobre';
 
-
+import { Nav } from './components/Nav';
 
 
 function App() {
@@ -17,65 +17,26 @@ function App() {
 
     function handlePage(page) {
 
-        if (page === "home") {
+        if (active === "home") {
             setActive("HomePage")
         }
-        else if (page === "sobre") {
+        else if (active === "sobre") {
             setActive("SobrePage")
         }
-        else if (page === "portfolio") {
+        else if (active === "portfolio") {
             setActive("PortfolioPage")
         }
-        else if (page === "contato") {
+        else if (active === "contato") {
             setActive("ContatoPage")
         }
 
-    }
-
-
-    const Nav = () => {
-        return (
-            <div className="nav-bar">
-                <ul>
-                    <li>
-                        <button onClick={() => { handlePage("home") }}>
-
-                            <FaHome size="25" color="#FFF" />
-                            <h2>HOME</h2>
-                        </button>
-                    </li>
-                    <li>
-                        <button onClick={() => { handlePage("sobre") }}>
-                            <FaUser size="25" color="#FFF" />
-                            <h2>SOBRE</h2>
-                        </button>
-                    </li>
-                    <li>
-                        <button onClick={() => { handlePage("portfolio") }}>
-                            <FaBriefcase size="25" color="#FFF" />
-                            <h2>PORTFOLIO</h2>
-                        </button>
-                    </li>
-                    <li>
-                        <button onClick={() => { handlePage("contato") }}>
-                            <FaEnvelope size="25" color="#FFF" />
-                            <h2>CONTATO</h2>
-                        </button>
-                    </li>
-                    <li>
-                        <FaGithub size="25" color="#FFF" />
-                        <h2>GITHUB</h2>
-                    </li>
-
-                </ul>
-            </div>
-        )
     }
 
     return (
 
         <div>
             
+            {handlePage(active)}
 
             {active === "HomePage" && <Home />}
             {active === "SobrePage" && <Sobre />}
@@ -83,7 +44,7 @@ function App() {
             {active === "ContatoPage" && <Contato />}
 
 
-            <Nav />
+            <Nav active={active} setActive={setActive} />
 
         </div>
 

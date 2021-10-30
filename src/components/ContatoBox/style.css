@@ -1,0 +1,20 @@
+.box-contato-info{
+    border: 1px solid #FFFFFF20;
+    border-radius: 20px;
+    padding: 14px 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    margin-bottom: 20px;
+}
+
+.infos-contato {
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.infos-contato h4{
+    padding-bottom: 8px;
+}

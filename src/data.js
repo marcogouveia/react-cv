@@ -1,4 +1,4 @@
-export default [
+const data = [
 
     {
         id: 1,
@@ -7,7 +7,7 @@ export default [
             projeto: "Site",
             tecnologia: "Html, Css e JavaScript",
             preview: "https://pepitaduran.com.br",
-            foto: "http://www.pepitaduran.com.br/img/Logo%20Horizontal.png"
+            foto: "https://raw.githubusercontent.com/marcogouveia/react-cv/master/src/assets/image/pepita.png"
         },
     }
     ,
@@ -18,7 +18,7 @@ export default [
             projeto: "Site ",
             tecnologia: "Html, Css e JavaScript",
             preview: "https://bsainvest.com.br",
-            foto: "http://bsainvest.com.br/img/MARCA-03.png",
+            foto: "https://raw.githubusercontent.com/marcogouveia/react-cv/master/src/assets/image/bsa.png",
         },
     }
     ,
@@ -29,7 +29,7 @@ export default [
             projeto: "Site",
             tecnologia: "Html, Css e JavaScript",
             preview: "https://clinicamovemente.com",
-            foto: "http://clinicamovemente.com/img/LOGO%20BRANCA%20PARA%20O%20BANNER%20DO%20SITE-01.png"
+            foto: "https://raw.githubusercontent.com/marcogouveia/react-cv/master/src/assets/image/movemente.png"
         }
     }
     ,
@@ -40,96 +40,98 @@ export default [
             projeto: "Site",
             tecnologia: "Html, Css e JavaScript",
             preview: "http://burtoncleaningfl.com",
-            foto: "http://burtoncleaningfl.com/img/Business%20Card%20Burton%20(1).png"
+            foto: "https://raw.githubusercontent.com/marcogouveia/react-cv/master/src/assets/image/burton.png"
         }
     }
     ,
     {
         id: 5,
         cliente: {
-            nome: "Clínica Movemente",
+            nome: "Brazil Brokers",
             projeto: "Site",
             tecnologia: "Html, Css e JavaScript",
-            preview: "https://clinicamovemente.com",
-            foto: "http://clinicamovemente.com/img/LOGO%20BRANCA%20PARA%20O%20BANNER%20DO%20SITE-01.png"
+            preview: "https://brazilbrokers.us",
+            foto: "https://raw.githubusercontent.com/marcogouveia/react-cv/master/src/assets/image/brazilbrokers.png"
         }
     }
     ,
     { 
         id: 6,
         cliente: {
-            nome: "Clínica Movemente",
+            nome: "Clínica Imedi",
             projeto: "Site",
             tecnologia: "Html, Css e JavaScript",
-            preview: "https://clinicamovemente.com",
-            foto: "http://clinicamovemente.com/img/LOGO%20BRANCA%20PARA%20O%20BANNER%20DO%20SITE-01.png"
+            preview: "https://clinicaimedi.com",
+            foto: "https://raw.githubusercontent.com/marcogouveia/react-cv/master/src/assets/image/imedi.png"
         }
     }
     ,
     {
         id: 7,
         cliente: {
-            nome: "Clínica Movemente",
+            nome: "Kerry Logística",
             projeto: "Site",
             tecnologia: "Html, Css e JavaScript",
-            preview: "https://clinicamovemente.com",
-            foto: "http://clinicamovemente.com/img/LOGO%20BRANCA%20PARA%20O%20BANNER%20DO%20SITE-01.png"
+            preview: "https://kerrylogistics.com.br",
+            foto: "https://raw.githubusercontent.com/marcogouveia/react-cv/master/src/assets/image/kerry.png"
         }
     }
     ,
     {
         id: 8,
         cliente: {
-            nome: "Clínica Movemente",
+            nome: "Agência Mangrove",
             projeto: "Site",
             tecnologia: "Html, Css e JavaScript",
-            preview: "https://clinicamovemente.com",
-            foto: "http://clinicamovemente.com/img/LOGO%20BRANCA%20PARA%20O%20BANNER%20DO%20SITE-01.png"
+            preview: "https://mangrove.com.br",
+            foto: "https://raw.githubusercontent.com/marcogouveia/react-cv/master/src/assets/image/mangrove.png"
         }
     }
     ,
     {
         id: 9,
         cliente: {
-            nome: "Clínica Movemente",
-            projeto: "Site",
+            nome: "Paraibanos Restaurante",
+            projeto: "Layout de Site",
             tecnologia: "Html, Css e JavaScript",
-            preview: "https://clinicamovemente.com",
-            foto: "http://clinicamovemente.com/img/LOGO%20BRANCA%20PARA%20O%20BANNER%20DO%20SITE-01.png"
+            preview: "#",
+            foto: "https://raw.githubusercontent.com/marcogouveia/react-cv/master/src/assets/image/paraibanos.png"
         }
     }
     ,
     {
         id: 10,
         cliente: {
-            nome: "Clínica Movemente",
+            nome: "Reabilite+",
             projeto: "Site",
             tecnologia: "Html, Css e JavaScript",
-            preview: "https://clinicamovemente.com",
-            foto: "http://clinicamovemente.com/img/LOGO%20BRANCA%20PARA%20O%20BANNER%20DO%20SITE-01.png"
+            preview: "https://reabilitemais.com",
+            foto: "https://raw.githubusercontent.com/marcogouveia/react-cv/master/src/assets/image/reabilite.png"
         }
     }
     ,
     {
         id: 11,
         cliente: {
-            nome: "Clínica Movemente",
+            nome: "Engenho Sanhaçu",
             projeto: "Site",
             tecnologia: "Html, Css e JavaScript",
-            preview: "https://clinicamovemente.com",
-            foto: "http://clinicamovemente.com/img/LOGO%20BRANCA%20PARA%20O%20BANNER%20DO%20SITE-01.png"
+            preview: "https://sanhacu.com.br",
+            foto: "https://raw.githubusercontent.com/marcogouveia/react-cv/master/src/assets/image/sanhacu.png"
         }
     }
     ,
     {
         id: 12,
         cliente: {
-            nome: "Clínica Movemente",
+            nome: "ABENFISIO",
             projeto: "Site",
             tecnologia: "Html, Css e JavaScript",
-            preview: "https://clinicamovemente.com",
-            foto: "http://clinicamovemente.com/img/LOGO%20BRANCA%20PARA%20O%20BANNER%20DO%20SITE-01.png"
+            preview: "https://abenfisio.com.br",
+            foto: "https://raw.githubusercontent.com/marcogouveia/react-cv/master/src/assets/image/abenfisio.png"
         }
     }
 
 ]
+
+export default data;

@@ -1,0 +1,10 @@
+.container-portfolio{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

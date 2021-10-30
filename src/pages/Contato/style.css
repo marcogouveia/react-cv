@@ -1,0 +1,35 @@
+.container-contato{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-contato{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.infos-contato-div{
+    width: 45%;
+}
+
+.infos-contato-div .text-info-div{
+    color: #FFF;
+}
+
+.infos-contato-div .text-info-div p{
+    padding: 20px 0;
+}
+
+.infos-contato-div .text-info-div h2{
+    padding-bottom: 18px;
+}
+
+.flex-redes{
+    display: flex;
+
+}
+
+.flex-redes a{
+    margin-right: 12px;
+}

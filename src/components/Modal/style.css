@@ -1,0 +1,81 @@
+.modal-cliente{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000ab;
+    z-index: 50;
+    
+}
+
+.content-modal{
+    width: 60vw;
+    height: 60vh;
+    background-color: #082c46;
+    z-index: 2;
+    border-radius: 50px;
+    padding: 50px;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    
+}
+/* 
+.modal-cliente::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.719);
+} */
+        
+
+.modal-cliente .content-modal .infos-cliente{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infos-cliente .coluna p{
+    color: #FFF;
+    padding: 4px 0;
+}
+
+.infos-cliente .coluna p span{
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.infos-cliente .coluna p a{
+    color: #FFF;
+}
+        
+
+.content-modal .foto-cliente{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.close-button button{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 50px;
+    height: 50px;
+    background-color: #63B4EE;
+    border-radius: 50%;
+    border: none;
+    font-size: 42px;
+    color: #FFF;
+
+    cursor: pointer;
+}
